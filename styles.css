@@ -1,5 +1,5 @@
 /* ============================================================
-   PLANET CAR CARE ORLANDO Ã¢ÂÂ styles.css
+   PLANET CAR CARE ORLANDO ÃÂ¢ÃÂÃÂ styles.css
    ============================================================ */
 
 :root {
@@ -37,7 +37,7 @@ ul { list-style: none; }
 .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(239,68,68,0.15); }
 .btn-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,0.6); }
 .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: var(--white); }
-.btn-nav { background: var(--primary); color: var(--dark); padding: 10px 22px; font-size: 14px; }
+.btn-nav { background: var(--primary); color: var(--white); padding: 10px 22px; font-size: 14px; }
 .btn-nav:hover { background: var(--primary-dark); }
 .btn-service { background: transparent; color: var(--primary); border: 2px solid var(--primary); padding: 10px 24px; font-size: 14px; margin-top: auto; }
 .btn-service:hover { background: var(--primary); color: var(--dark); }
@@ -56,7 +56,7 @@ ul { list-style: none; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: var(--transition); }
 
 .hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 40%, #2a1800 100%); overflow: hidden; }
-.hero-overlay { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(239,68,68,0.15) 0%, transparent 70%); }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)); }
 .hero-content { position: relative; z-index: 2; text-align: center; color: var(--white); padding: 120px 24px 80px; max-width: 800px; }
 .hero-badge { display: inline-block; background: rgba(239,68,68,0.15); color: var(--primary); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; padding: 6px 18px; border-radius: 20px; border: 1px solid rgba(239,68,68,0.15); margin-bottom: 24px; }
 .hero-content h1 { font-size: clamp(38px, 7vw, 72px); font-weight: 900; line-height: 1.1; margin-bottom: 20px; background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.8) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
@@ -87,7 +87,7 @@ ul { list-style: none; }
 .service-card p { color: var(--gray); font-size: 15px; }
 .service-card ul { display: flex; flex-direction: column; gap: 8px; }
 .service-card ul li { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--gray); }
-.service-card ul li::before { content: 'Ã¢ÂÂ'; color: var(--primary); font-weight: 700; }
+.service-card ul li::before { content: 'ÃÂ¢ÃÂÃÂ'; color: var(--primary); font-weight: 700; }
 .service-card.featured ul li::before { color: var(--primary); }
 
 .about { padding: 100px 0; background: var(--white); }
