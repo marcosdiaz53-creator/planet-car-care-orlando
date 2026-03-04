@@ -1,305 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Planet Car Care Orlando - Professional window tinting, vehicle wraps, and auto detailing in Orlando, FL. Call (407) 379-7093." />
-  <meta name="keywords" content="car window tinting Orlando, vehicle wraps Orlando, auto detailing Orlando, Planet Car Care" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Planet Car Care Orlando" />
-  <meta property="og:description" content="Professional window tinting, vehicle wraps, and auto detailing in Orlando, FL." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://forestgreen-pelican-540677.hostingersite.com" />
-  <title>Planet Car Care Orlando | Auto Enhancement v2</title>
-  <link rel="stylesheet" href="styles-v3.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-
-  <style>
-    .logo-img { height: 50px; width: auto; object-fit: contain; }
-    .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .gallery-item { position: relative; overflow: hidden; cursor: pointer; }
-    .gallery-item img:hover { transform: scale(1.05); transition: transform 0.4s ease; }
-  
-    .service-icon { width:60px; height:60px; background:#ef4444; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:14px; color:white; margin-bottom:1rem; }
-    .check { color: #22c55e; font-weight: bold; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planet Car Care Orlando | Auto Enhancement</title>
+<link rel="stylesheet" href="styles-clean.css">
 </head>
 <body>
+<nav class="navbar">
+<div class="nav-container">
+<div class="nav-logo"><img src="images/logo.png" alt="Planet Car Care" class="logo-img"></div>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<a href="tel:4073797093" class="btn-nav">Call Now</a>
+</div>
+</nav>
 
-  <!-- NAVIGATION -->
-  <header id="header">
-    <nav class="navbar">
-      <a href="#home" class="logo">
-        <img src="images/logo.jpg" alt="Planet Car Care Orlando Logo" class="logo-img" />
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="tel:4073797093" class="btn btn-nav">Call Now</a>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </nav>
-  </header>
+<section id="home" class="hero">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<span class="hero-tag">Orlando's Premier Auto Care</span>
+<h1 class="hero-title">Protect &amp; Transform Your Vehicle</h1>
+<p class="hero-subtitle">Window Tinting &middot; PPF &middot; Color Change &middot; Ceramic Coating</p>
+<p class="hero-desc">Professional results. Lasting quality.</p>
+<div class="hero-buttons">
+<a href="#contact" class="btn-primary">Get a Free Quote</a>
+<a href="#services" class="btn-outline">Our Services</a>
+</div>
+<div class="hero-stats">
+<div class="stat"><span class="stat-num">1671+</span><span class="stat-label">Cars Served</span></div>
+<div class="stat"><span class="stat-num">8+</span><span class="stat-label">Years Experience</span></div>
+<div class="stat"><span class="stat-num">417+</span><span class="stat-label">Installs Done</span></div>
+<div class="stat"><span class="stat-num">98%</span><span class="stat-label">Satisfaction</span></div>
+</div>
+</div>
+</section>
 
-  <!-- HERO -->
-  <section class="hero" id="home" style="background-image: url('images/gallery_01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-badge">Orlando's Premier Auto Care</p>
-      <h1>Protect &amp; Transform<br />Your Vehicle</h1>
-      <p class="hero-sub">Window Tinting ÃÂ· PPF ÃÂ· Color Change ÃÂ· Ceramic Coating</p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
-        <a href="#services" class="btn btn-outline">Our Services</a>
-      </div>
-    </div>
-    <div class="hero-scroll"><span></span></div>
-  </section>
+<section id="services" class="services">
+<div class="container">
+<span class="section-tag">WHAT WE DO</span>
+<h2 class="section-title">Our Services</h2>
+<p class="section-desc">Expert craftsmanship on every vehicle.</p>
+<div class="services-grid">
 
-  <!-- STATS BAR -->
-  <section class="stats-bar">
-    <div class="container stats-grid">
-      <div class="stat"><span class="stat-num" data-target="2000">0</span><span>+</span><p>Cars Served</p></div>
-      <div class="stat"><span class="stat-num" data-target="10">0</span><span>+</span><p>Years Experience</p></div>
-      <div class="stat"><span class="stat-num" data-target="500">0</span><span>+</span><p>Wraps Installed</p></div>
-      <div class="stat"><span class="stat-num" data-target="100">0</span><span>%</span><p>Satisfaction</p></div>
-    </div>
-  </section>
+<div class="service-card">
+<div class="service-icon">WT</div>
+<h3>Window Tinting</h3>
+<p>Block heat and UV rays with premium ceramic and dyed window films.</p>
+<ul class="service-features">
+<li>Ceramic &amp; Dyed Films</li>
+<li>99% UV Rejection</li>
+<li>Heat Reduction</li>
+<li>Lifetime Warranty</li>
+</ul>
+<a href="#contact" class="btn-service">Get Quote</a>
+</div>
 
-  <!-- SERVICES -->
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-header">
-        <span class="tag">What We Do</span>
-        <h2>Our Services</h2>
-        <p>Expert craftsmanship on every vehicle. From protection to transformation, we do it all.</p>
-      </div>
-      <div class="services-grid">
-        <!-- Card 1: Window Tinting -->
-        <div class="service-card">
-          <div class="service-icon">WT</div>
-          <h3>Window Tinting</h3>
-          <p>Block heat and UV rays with premium ceramic and dyed window films. Keep your interior cool, protected, and private.</p>
-          <ul>
-            <li>Ceramic &amp; Dyed Films</li>
-            <li>99% UV Rejection</li>
-            <li>Heat Reduction</li>
-            <li>Lifetime Warranty</li>
-          </ul>
-          <a href="#contact" class="btn btn-service">Get Quote</a>
-        </div>
-        <!-- Card 2: Paint Protection Film -->
-        <div class="service-card featured">
-          <div class="service-badge">Most Popular</div>
-          <div class="service-icon">PPF</div>
-          <h3>Paint Protection Film</h3>
-          <p>Military-grade urethane film that protects your paint from rock chips, scratches, and road debris while staying completely invisible.</p>
-          <ul>
-            <li>Self-Healing Technology</li>
-            <li>Crystal Clear Finish</li>
-            <li>Rock Chip Protection</li>
-            <li>10-Year Warranty</li>
-          </ul>
-          <a href="#contact" class="btn btn-service">Get Quote</a>
-        </div>
-        <!-- Card 3: Color Change Vinyl Wrap -->
-        <div class="service-card">
-          <div class="service-icon">CC</div>
-          <h3>Color Change Vinyl</h3>
-          <p>Transform your vehicle's look completely with a full color change vinyl wrap. Hundreds of colors and finishes available.</p>
-          <ul>
-            <li>Full &amp; Partial Wraps</li>
-            <li>Matte, Gloss &amp; Satin</li>
-            <li>Removable &amp; Reversible</li>
-            <li>Custom Graphics</li>
-          </ul>
-          <a href="#contact" class="btn btn-service">Get Quote</a>
-        </div>
-        <!-- Card 4: Ceramic Coating -->
-        <div class="service-card featured">
-          <div class="service-badge">Best Value</div>
-          <div class="service-icon">CR</div>
-          <h3>Ceramic Coating</h3>
-          <p>Permanent nano-ceramic protection that bonds to your paint, repelling water, dirt, and UV damage for years of lasting shine.</p>
-          <ul>
-            <li>Hydrophobic Finish</li>
-            <li>UV &amp; Chemical Resistant</li>
-            <li>Enhanced Gloss</li>
-            <li>5-Year Warranty</li>
-          </ul>
-          <a href="#contact" class="btn btn-service">Get Quote</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="service-card featured">
+<span class="badge">Most Popular</span>
+<div class="service-icon">PPF</div>
+<h3>Paint Protection Film</h3>
+<p>Military-grade urethane film protecting your paint from chips and scratches.</p>
+<ul class="service-features">
+<li>Self-Healing Technology</li>
+<li>Crystal Clear Finish</li>
+<li>Rock Chip Protection</li>
+<li>10-Year Warranty</li>
+</ul>
+<a href="#contact" class="btn-service">Get Quote</a>
+</div>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="container about-grid">
-      <div class="about-visual">
-        <div class="about-img-block">
-          <img src="images/gallery_01.jpg" alt="Planet Car Care Orlando" style="width:100%;height:100%;object-fit:cover;border-radius:12px;" />
-          <div class="about-badge-box">
-            <strong>10+</strong>
-            <span>Years in Orlando</span>
-          </div>
-        </div>
-      </div>
-      <div class="about-text">
-        <span class="tag">About Us</span>
-        <h2>Orlando's Trusted Auto Care Specialists</h2>
-        <p>Planet Car Care has been serving Orlando drivers with top-tier automotive enhancement services since day one. Located at 5235 Edgewater Dr, we've built our reputation on quality work, honest pricing, and results that speak for themselves.</p>
-        <p>Whether you need a sleek tint job, a bold vehicle wrap, or a deep-clean detail, our experienced team treats every vehicle as if it were our own.</p>
-        <div class="about-features">
-          <div class="af-item"><span class="af-icon">&#x2705;</span><div><strong>Certified Installers</strong><p>Trained professionals on every job</p></div></div>
-          <div class="af-item"><span class="af-icon">&#x2705;</span><div><strong>Premium Materials</strong><p>Top-brand films and vinyl only</p></div></div>
-          <div class="af-item"><span class="af-icon">&#x2705;</span><div><strong>Fast Turnaround</strong><p>Most jobs completed same day</p></div></div>
-          <div class="af-item"><span class="af-icon">&#x2705;</span><div><strong>Warranty Backed</strong><p>Stand behind every install</p></div></div>
-        </div>
-        <a href="#contact" class="btn btn-primary">Contact Us Today</a>
-      </div>
-    </div>
-  </section>
+<div class="service-card">
+<div class="service-icon">CC</div>
+<h3>Color Change Vinyl</h3>
+<p>Transform your vehicle with a full color change vinyl wrap. Hundreds of finishes available.</p>
+<ul class="service-features">
+<li>Full &amp; Partial Wraps</li>
+<li>Matte, Gloss &amp; Satin</li>
+<li>Removable &amp; Reversible</li>
+<li>Custom Graphics</li>
+</ul>
+<a href="#contact" class="btn-service">Get Quote</a>
+</div>
 
-  <!-- GALLERY -->
-  <section class="gallery" id="gallery">
-    <div class="container">
-      <div class="section-header">
-        <span class="tag">Our Work</span>
-        <h2>Recent Projects</h2>
-        <p>A sample of the quality transformations we deliver every day.</p>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-item gi-large">
-          <img src="images/gallery_01.jpg" alt="Matte Vehicle Wrap - Range Rover" loading="lazy" />
-          <div class="gi-label">Vehicle Wrap ÃÂÃÂÃÂÃÂ· Full Color Change</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_02.jpg" alt="Vehicle Wrap Orlando" loading="lazy" />
-          <div class="gi-label">Vehicle Wrap ÃÂÃÂÃÂÃÂ· Custom Finish</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_03.jpg" alt="Window Tinting Orlando" loading="lazy" />
-          <div class="gi-label">Window Tinting ÃÂÃÂÃÂÃÂ· Privacy Tint</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_04.jpg" alt="Auto Detailing Orlando" loading="lazy" />
-          <div class="gi-label">Auto Detailing ÃÂÃÂÃÂÃÂ· Full Detail</div>
-        </div>
-        <div class="gallery-item gi-large">
-          <img src="images/gallery_05.jpg" alt="Ceramic Window Tinting" loading="lazy" />
-          <div class="gi-label">Window Tinting ÃÂÃÂÃÂÃÂ· Ceramic Tint</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_06.jpg" alt="Vehicle Wrap Custom Design" loading="lazy" />
-          <div class="gi-label">Vehicle Wrap ÃÂÃÂÃÂÃÂ· Custom Design</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_07.jpg" alt="Paint Protection Film" loading="lazy" />
-          <div class="gi-label">Paint Protection ÃÂÃÂÃÂÃÂ· PPF Install</div>
-        </div>
-        <div class="gallery-item gi-large">
-          <img src="images/gallery_08.jpg" alt="Auto Detailing Interior" loading="lazy" />
-          <div class="gi-label">Auto Detailing ÃÂÃÂÃÂÃÂ· Interior Detail</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_09.jpg" alt="Window Tinting Residential" loading="lazy" />
-          <div class="gi-label">Window Tinting ÃÂÃÂÃÂÃÂ· Heat Rejection</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_10.jpg" alt="Vehicle Wrap Orlando FL" loading="lazy" />
-          <div class="gi-label">Vehicle Wrap ÃÂÃÂÃÂÃÂ· Color Shift</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_11.jpg" alt="Ceramic Coating Orlando" loading="lazy" />
-          <div class="gi-label">Ceramic Coating ÃÂÃÂÃÂÃÂ· Full Car</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/gallery_12.jpg" alt="Professional Auto Care Orlando" loading="lazy" />
-          <div class="gi-label">Vehicle Wrap ÃÂÃÂÃÂÃÂ· Matte Finish</div>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="service-card">
+<span class="badge badge-alt">Best Value</span>
+<div class="service-icon">CR</div>
+<h3>Ceramic Coating</h3>
+<p>Permanent nano-ceramic protection bonded to your paint for lasting hydrophobic defense.</p>
+<ul class="service-features">
+<li>9H Hardness Rating</li>
+<li>Hydrophobic Shield</li>
+<li>UV &amp; Chemical Resistant</li>
+<li>5-Year Warranty</li>
+</ul>
+<a href="#contact" class="btn-service">Get Quote</a>
+</div>
 
-  <!-- TESTIMONIALS -->
-  <section class="testimonials">
-    <div class="container">
-      <div class="section-header light">
-        <span class="tag">Reviews</span>
-        <h2>What Our Customers Say</h2>
-      </div>
-      <div class="reviews-grid">
-        <div class="review-card"><div class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div><p>"Best tint job in Orlando. Quick, clean, and the ceramic film is absolutely worth it. My car runs so much cooler now."</p><strong>ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Marcus T.</strong></div>
-        <div class="review-card"><div class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div><p>"Had my whole truck wrapped and it looks amazing. The team was professional and finished ahead of schedule."</p><strong>ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Jessica R.</strong></div>
-        <div class="review-card"><div class="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div><p>"Brought my car in for a full detail ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ it looked brand new when I picked it up. Highly recommend Planet Car Care!"</p><strong>ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ David M.</strong></div>
-      </div>
-    </div>
-  </section>
+</div>
+</div>
+</section>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="container contact-grid">
-      <div class="contact-info">
-        <span class="tag">Get In Touch</span>
-        <h2>Request a Free Quote</h2>
-        <p>Ready to upgrade your vehicle? Call us or fill out the form and we'll get back to you promptly.</p>
-        <div class="contact-details">
-          <div class="cd-item"><div><strong>Address</strong><p>5235 Edgewater Dr<br />Orlando, FL 32810</p></div></div>
-          <div class="cd-item"><div><strong>Phone</strong><p><a href="tel:4073797093">(407) 379-7093</a></p></div></div>
-          <div class="cd-item"><div><strong>Hours</strong><p>Mon-Fri: 9am - 6pm<br />Sat: By Appointment</p></div></div>
-        </div>
-      </div>
-      <div class="contact-form-wrap">
-        <form class="contact-form" id="contactForm">
-          <div class="form-row">
-            <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="John Smith" required /></div>
-            <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="(407) 555-0123" required /></div>
-          </div>
-          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="john@example.com" required /></div>
-          <div class="form-group">
-            <label for="service">Service Interested In</label>
-            <select id="service" name="service" required>
-              <option value="">Select a service...</option>
-              <option value="tinting">Window Tinting</option>
-              <option value="wrap">Vehicle Wrap</option>
-              <option value="detailing">Auto Detailing</option>
-              <option value="other">Other / Multiple</option>
-            </select>
-          </div>
-          <div class="form-group"><label for="message">Vehicle &amp; Details</label><textarea id="message" name="message" rows="4" placeholder="Year, make, model, and any specific requests..."></textarea></div>
-          <button type="submit" class="btn btn-primary full-width">Send Message</button>
-          <p class="form-note" id="formStatus"></p>
-        </form>
-      </div>
-    </div>
-  </section>
+<section id="about" class="about">
+<div class="container about-container">
+<div class="about-image">
+<img src="images/gallery_01.jpg" alt="Planet Car Care Orlando">
+<div class="about-badge">10+ Years in Orlando</div>
+</div>
+<div class="about-content">
+<span class="section-tag">ABOUT US</span>
+<h2>Orlando's Trusted Auto Care Specialists</h2>
+<p>Planet Car Care has been serving Orlando drivers with top-tier automotive enhancement services. Located at 5235 Edgewater Dr, we have built our reputation on quality work, honest pricing, and results that speak for themselves.</p>
+<div class="about-features">
+<div class="feature"><span class="check">&#10003;</span><div><strong>Certified Installers</strong><p>Trained professionals on every job</p></div></div>
+<div class="feature"><span class="check">&#10003;</span><div><strong>Premium Materials</strong><p>Top-brand films and vinyl only</p></div></div>
+<div class="feature"><span class="check">&#10003;</span><div><strong>Fast Turnaround</strong><p>Most jobs completed same day</p></div></div>
+<div class="feature"><span class="check">&#10003;</span><div><strong>Warranty Backed</strong><p>We stand behind every install</p></div></div>
+</div>
+<a href="#contact" class="btn-primary">Contact Us Today</a>
+</div>
+</div>
+</section>
 
-  <!-- MAP -->
-  <section class="map-section">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.4!2d-81.4140!3d28.5890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773b0b0b0b0b0%3A0x0!2s5235+Edgewater+Dr%2C+Orlando%2C+FL+32810!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Planet Car Care Location"></iframe>
-  </section>
+<section id="gallery" class="gallery">
+<div class="container">
+<span class="section-tag">OUR WORK</span>
+<h2 class="section-title">Recent Projects</h2>
+<div class="gallery-grid">
+<div class="gallery-item"><img src="images/gallery_01.jpg" alt="Color Change Range Rover"><span>Color Change &middot; Range Rover</span></div>
+<div class="gallery-item"><img src="images/gallery_02.jpg" alt="Vehicle Wrap"><span>Color Change &middot; Custom Finish</span></div>
+<div class="gallery-item"><img src="images/gallery_03.jpg" alt="Window Tinting"><span>Window Tinting &middot; Privacy Tint</span></div>
+<div class="gallery-item"><img src="images/gallery_04.jpg" alt="Ceramic Coating"><span>Ceramic Coating &middot; Full Car</span></div>
+<div class="gallery-item"><img src="images/gallery_05.jpg" alt="Ceramic Tint"><span>Window Tinting &middot; Ceramic Film</span></div>
+<div class="gallery-item"><img src="images/gallery_06.jpg" alt="Custom Wrap"><span>Color Change &middot; Custom Design</span></div>
+<div class="gallery-item"><img src="images/gallery_07.jpg" alt="PPF Install"><span>PPF &middot; Full Front</span></div>
+<div class="gallery-item"><img src="images/gallery_08.jpg" alt="Window Tint Interior"><span>Window Tinting &middot; Interior View</span></div>
+<div class="gallery-item"><img src="images/gallery_09.jpg" alt="Heat Rejection Tint"><span>Window Tinting &middot; Heat Rejection</span></div>
+<div class="gallery-item"><img src="images/gallery_10.jpg" alt="Color Shift Wrap"><span>Color Change &middot; Color Shift</span></div>
+<div class="gallery-item"><img src="images/gallery_11.jpg" alt="Full Ceramic Coating"><span>Ceramic Coating &middot; Full Car</span></div>
+<div class="gallery-item"><img src="images/gallery_12.jpg" alt="Matte Wrap"><span>Color Change &middot; Matte Finish</span></div>
+</div>
+</div>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a href="#home" class="logo"><span class="logo-planet">PLANET</span><span class="logo-care">CAR CARE</span></a>
-        <p>Orlando's premier destination for window tinting, vehicle wraps, and auto detailing.</p>
-      </div>
-      <div class="footer-links"><h4>Services</h4><ul><li><a href="#services">Window Tinting</a></li><li><a href="#services">Vehicle Wraps</a></li><li><a href="#services">Auto Detailing</a></li></ul></div>
-      <div class="footer-links"><h4>Company</h4><ul><li><a href="#about">About Us</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact</a></li></ul></div>
-      <div class="footer-contact"><h4>Contact</h4><p>5235 Edgewater Dr<br />Orlando, FL 32810</p><p><a href="tel:4073797093">(407) 379-7093</a></p></div>
-    </div>
-    <div class="footer-bottom"><p>&copy; 2025 Planet Car Care Orlando. All rights reserved.</p></div>
-  </footer>
+<section class="testimonials">
+<div class="container">
+<span class="section-tag">REVIEWS</span>
+<h2 class="section-title">What Our Customers Say</h2>
+<div class="testimonials-grid">
+<div class="testimonial">
+<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<p>"Best tint job in Orlando. Quick, clean, and the ceramic film is absolutely worth it. My car runs so much cooler now."</p>
+<strong>-- Marcus T.</strong>
+</div>
+<div class="testimonial">
+<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<p>"Had my whole truck wrapped and it looks amazing. The team was professional and finished ahead of schedule."</p>
+<strong>-- Jessica R.</strong>
+</div>
+<div class="testimonial">
+<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<p>"Got the ceramic coating done on my new car. It looks unbelievable and the protection is worth every penny."</p>
+<strong>-- David M.</strong>
+</div>
+</div>
+</div>
+</section>
 
-  <script src="script.js"></script>
+<section id="contact" class="contact">
+<div class="container">
+<span class="section-tag">GET IN TOUCH</span>
+<h2 class="section-title">Request a Free Quote</h2>
+<div class="contact-container">
+<div class="contact-info">
+<div class="info-item"><strong>Address</strong><p>5235 Edgewater Dr, Orlando, FL 32810</p></div>
+<div class="info-item"><strong>Phone</strong><p><a href="tel:4073797093">(407) 379-7093</a></p></div>
+<div class="info-item"><strong>Hours</strong><p>Mon&ndash;Fri: 9am &ndash; 6pm<br>Sat: By Appointment</p></div>
+</div>
+<form class="contact-form">
+<input type="text" placeholder="Full Name" required>
+<input type="tel" placeholder="Phone Number">
+<input type="email" placeholder="Email Address" required>
+<select>
+<option value="">Service Interested In...</option>
+<option>Window Tinting</option>
+<option>Paint Protection Film</option>
+<option>Color Change Vinyl</option>
+<option>Ceramic Coating</option>
+<option>Multiple Services</option>
+</select>
+<textarea placeholder="Tell us about your vehicle..." rows="4"></textarea>
+<button type="submit" class="btn-primary">Send Message</button>
+</form>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<p>&copy; 2024 Planet Car Care Orlando. All rights reserved.</p>
+<p>5235 Edgewater Dr, Orlando, FL 32810 &middot; (407) 379-7093</p>
+</div>
+</footer>
+
 </body>
 </html>
